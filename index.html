@@ -190,13 +190,44 @@
 
         <div id="achievements" class="section">
             <h2>Achievements</h2>
-            <ul>
-                <li>2021, Recipient of Donor Scholarship on the basis of academic performance and extra-curricular</li>
-                <li>2018, Recipient of Donor Scholarship on the basis of academic performance and extra-curricular</li>
-                <li> 2018, Achieved Global Rank of 66 in Quick Code'18 Div. 2</li>
-                <li>2017, Secured position in top 2% in IIT-JEE (Advanced) among 1.5 lakh aspirants</li>
+            <ul class="achievement-list">
+                <li class="achievement-item">
+                    <span class="achievement-date">2021</span>
+                    Recipient of Donor Scholarship for academic performance and extra-curricular activities
+                </li>
+                <li class="achievement-item">
+                    <span class="achievement-date">2018</span>
+                    Recipient of Donor Scholarship for academic performance and extra-curricular activities
+                </li>
+                <li class="achievement-item">
+                    <span class="achievement-date">2018</span>
+                    Achieved Global Rank of 66 in Quick Code'18 Div. 2
+                </li>
+                <li class="achievement-item">
+                    <span class="achievement-date">2017</span>
+                    Secured position in top 2% in IIT-JEE (Advanced) among 1.5 lakh aspirants
+                </li>
             </ul>
         </div>
+
+        <style>
+            .achievement-list {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+            .achievement-item {
+                margin-bottom: 10px;
+                display: flex;
+                align-items: baseline;
+            }
+            .achievement-date {
+                min-width: 50px;
+                margin-right: 10px;
+                font-weight: bold;
+                color: #0077b6;
+            }
+        </style>
 
         <section id="contact" class="section">
             <h2>Contact Me</h2>
